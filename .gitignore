@@ -8,3 +8,17 @@
 gql/gql-fuzz.zip
 gql/fuzz-data/crashers
 gql/fuzz-data/suppressions
+
+protos/protos.go
+systest/customtok/anagram/anagram.go
+systest/customtok/anagram/main.go.bak
+systest/customtok/cidr/cidr.go
+systest/customtok/cidr/cidr_test.go
+systest/customtok/cidr/main.go.bak
+systest/customtok/cidr/main_test.go.bak
+systest/customtok/factor/factor.go
+systest/customtok/factor/main.go.bak
+systest/customtok/fix.fish
+systest/customtok/fix.sh
+systest/customtok/rune/main.go.bak
+systest/customtok/rune/rune.go

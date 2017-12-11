@@ -27,9 +27,9 @@ import (
 
 	"golang.org/x/net/trace"
 
-	"github.com/dgraph-io/dgraph/edgraph"
-	"github.com/dgraph-io/dgraph/protos/api"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/edgraph"
+	"github.com/slavaromanov/dgraph/protos/api"
+	"github.com/slavaromanov/dgraph/x"
 )
 
 // NewSharedQueryNQuads returns nquads with query and hash.

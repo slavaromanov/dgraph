@@ -20,9 +20,9 @@ import (
 	"expvar"
 	"path/filepath"
 
-	"github.com/dgraph-io/dgraph/posting"
-	"github.com/dgraph-io/dgraph/worker"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/posting"
+	"github.com/slavaromanov/dgraph/worker"
+	"github.com/slavaromanov/dgraph/x"
 )
 
 type Options struct {

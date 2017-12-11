@@ -28,8 +28,8 @@ import (
 
 	"github.com/dgraph-io/badger"
 	bo "github.com/dgraph-io/badger/options"
-	"github.com/dgraph-io/dgraph/protos/intern"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/protos/intern"
+	"github.com/slavaromanov/dgraph/x"
 	"github.com/gogo/protobuf/proto"
 )
 

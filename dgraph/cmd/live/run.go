@@ -42,11 +42,11 @@ import (
 
 	"github.com/dgraph-io/badger"
 	bopt "github.com/dgraph-io/badger/options"
-	"github.com/dgraph-io/dgraph/client"
-	"github.com/dgraph-io/dgraph/protos/api"
-	"github.com/dgraph-io/dgraph/rdf"
-	"github.com/dgraph-io/dgraph/x"
-	"github.com/dgraph-io/dgraph/xidmap"
+	"github.com/slavaromanov/dgraph/client"
+	"github.com/slavaromanov/dgraph/protos/api"
+	"github.com/slavaromanov/dgraph/rdf"
+	"github.com/slavaromanov/dgraph/x"
+	"github.com/slavaromanov/dgraph/xidmap"
 	"github.com/spf13/cobra"
 )
 

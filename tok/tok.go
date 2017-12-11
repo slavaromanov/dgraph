@@ -26,8 +26,8 @@ import (
 	farm "github.com/dgryski/go-farm"
 	geom "github.com/twpayne/go-geom"
 
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/types"
+	"github.com/slavaromanov/dgraph/x"
 )
 
 // Tokenizer defines what a tokenizer must provide.

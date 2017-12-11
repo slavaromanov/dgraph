@@ -33,11 +33,11 @@ import (
 
 	"github.com/dgraph-io/badger"
 	bo "github.com/dgraph-io/badger/options"
-	"github.com/dgraph-io/dgraph/protos/api"
-	"github.com/dgraph-io/dgraph/protos/intern"
-	"github.com/dgraph-io/dgraph/schema"
-	"github.com/dgraph-io/dgraph/x"
-	"github.com/dgraph-io/dgraph/xidmap"
+	"github.com/slavaromanov/dgraph/protos/api"
+	"github.com/slavaromanov/dgraph/protos/intern"
+	"github.com/slavaromanov/dgraph/schema"
+	"github.com/slavaromanov/dgraph/x"
+	"github.com/slavaromanov/dgraph/xidmap"
 	"google.golang.org/grpc"
 )
 

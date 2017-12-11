@@ -24,7 +24,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/x"
 )
 
 func mergeMapShardsIntoReduceShards(opt options) {

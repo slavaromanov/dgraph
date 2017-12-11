@@ -22,9 +22,9 @@ import (
 	"math"
 	"time"
 
-	"github.com/dgraph-io/dgraph/protos/intern"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/protos/intern"
+	"github.com/slavaromanov/dgraph/types"
+	"github.com/slavaromanov/dgraph/x"
 )
 
 type aggregator struct {

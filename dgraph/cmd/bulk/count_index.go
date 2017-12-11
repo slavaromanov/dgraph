@@ -22,9 +22,9 @@ import (
 	"sync"
 
 	"github.com/dgraph-io/badger"
-	"github.com/dgraph-io/dgraph/bp128"
-	"github.com/dgraph-io/dgraph/posting"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/bp128"
+	"github.com/slavaromanov/dgraph/posting"
+	"github.com/slavaromanov/dgraph/x"
 )
 
 type current struct {

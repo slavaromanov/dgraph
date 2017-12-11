@@ -22,8 +22,8 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/dgraph-io/dgraph/protos/api"
-	"github.com/dgraph-io/dgraph/y"
+	"github.com/slavaromanov/dgraph/protos/api"
+	"github.com/slavaromanov/dgraph/y"
 	"github.com/pkg/errors"
 )
 

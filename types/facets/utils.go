@@ -24,11 +24,11 @@ import (
 	"strconv"
 	"unicode"
 
-	"github.com/dgraph-io/dgraph/protos/api"
-	"github.com/dgraph-io/dgraph/protos/intern"
-	"github.com/dgraph-io/dgraph/tok"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/protos/api"
+	"github.com/slavaromanov/dgraph/protos/intern"
+	"github.com/slavaromanov/dgraph/tok"
+	"github.com/slavaromanov/dgraph/types"
+	"github.com/slavaromanov/dgraph/x"
 )
 
 // Sorts And validates the facets.

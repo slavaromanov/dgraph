@@ -24,8 +24,8 @@ import (
 	"github.com/golang/geo/s2"
 	"github.com/twpayne/go-geom"
 
-	"github.com/dgraph-io/dgraph/protos/intern"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/protos/intern"
+	"github.com/slavaromanov/dgraph/x"
 )
 
 // QueryType indicates the type of geo query.

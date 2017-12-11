@@ -16,7 +16,7 @@
 
 package facets
 
-import "github.com/dgraph-io/dgraph/protos/api"
+import "github.com/slavaromanov/dgraph/protos/api"
 
 const (
 	IntID      = TypeID(api.Facet_INT)

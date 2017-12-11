@@ -55,7 +55,7 @@ package intern
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import api "github.com/dgraph-io/dgraph/protos/api"
+import api "github.com/slavaromanov/dgraph/protos/api"
 
 import (
 	context "golang.org/x/net/context"

@@ -23,8 +23,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/types"
+	"github.com/slavaromanov/dgraph/x"
 )
 
 func populateGraphWithFacets(t *testing.T) {

@@ -26,10 +26,10 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/dgraph-io/dgraph/edgraph"
-	"github.com/dgraph-io/dgraph/posting"
-	"github.com/dgraph-io/dgraph/worker"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/edgraph"
+	"github.com/slavaromanov/dgraph/posting"
+	"github.com/slavaromanov/dgraph/worker"
+	"github.com/slavaromanov/dgraph/x"
 )
 
 // handlerInit does some standard checks. Returns false if something is wrong.

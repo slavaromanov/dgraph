@@ -258,8 +258,8 @@ func TestGoldenData(t *testing.T) {
 	}
 
 	s := newSuiteFromFile(t,
-		os.ExpandEnv("$GOPATH/src/github.com/dgraph-io/dgraph/systest/data/goldendata.schema"),
-		os.ExpandEnv("$GOPATH/src/github.com/dgraph-io/dgraph/systest/data/goldendata.rdf.gz"),
+		os.ExpandEnv("$GOPATH/src/github.com/slavaromanov/dgraph/systest/data/goldendata.schema"),
+		os.ExpandEnv("$GOPATH/src/github.com/slavaromanov/dgraph/systest/data/goldendata.rdf.gz"),
 	)
 	defer s.cleanup()
 

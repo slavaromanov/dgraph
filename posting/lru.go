@@ -26,7 +26,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/x"
 )
 
 // listCache is an LRU cache.

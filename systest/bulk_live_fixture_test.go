@@ -18,7 +18,7 @@ import (
 )
 
 func init() {
-	cmd := exec.Command("go", "install", "github.com/dgraph-io/dgraph/dgraph")
+	cmd := exec.Command("go", "install", "github.com/slavaromanov/dgraph/dgraph")
 	cmd.Env = os.Environ()
 	if out, err := cmd.CombinedOutput(); err != nil {
 		log.Fatalf("Could not run %q: %s", cmd.Args, string(out))

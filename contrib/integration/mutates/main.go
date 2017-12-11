@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/dgraph-io/dgraph/client"
-	"github.com/dgraph-io/dgraph/protos/api"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/client"
+	"github.com/slavaromanov/dgraph/protos/api"
+	"github.com/slavaromanov/dgraph/x"
 	"google.golang.org/grpc"
 )
 

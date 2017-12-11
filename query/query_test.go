@@ -39,15 +39,15 @@ import (
 	"github.com/stretchr/testify/require"
 	geom "github.com/twpayne/go-geom"
 
-	"github.com/dgraph-io/dgraph/gql"
-	"github.com/dgraph-io/dgraph/posting"
-	"github.com/dgraph-io/dgraph/protos/api"
-	"github.com/dgraph-io/dgraph/protos/intern"
+	"github.com/slavaromanov/dgraph/gql"
+	"github.com/slavaromanov/dgraph/posting"
+	"github.com/slavaromanov/dgraph/protos/api"
+	"github.com/slavaromanov/dgraph/protos/intern"
 
-	"github.com/dgraph-io/dgraph/schema"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/worker"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/schema"
+	"github.com/slavaromanov/dgraph/types"
+	"github.com/slavaromanov/dgraph/worker"
+	"github.com/slavaromanov/dgraph/x"
 )
 
 var passwordCache map[string]string = make(map[string]string, 2)

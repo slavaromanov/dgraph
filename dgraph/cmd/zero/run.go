@@ -34,10 +34,10 @@ import (
 
 	"github.com/dgraph-io/badger"
 	bopts "github.com/dgraph-io/badger/options"
-	"github.com/dgraph-io/dgraph/conn"
-	"github.com/dgraph-io/dgraph/protos/intern"
-	"github.com/dgraph-io/dgraph/raftwal"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/conn"
+	"github.com/slavaromanov/dgraph/protos/intern"
+	"github.com/slavaromanov/dgraph/raftwal"
+	"github.com/slavaromanov/dgraph/x"
 	"github.com/gogo/protobuf/jsonpb"
 	"github.com/spf13/cobra"
 )

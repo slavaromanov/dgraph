@@ -20,9 +20,9 @@ package rdf
 import (
 	"testing"
 
-	"github.com/dgraph-io/dgraph/protos/api"
-	"github.com/dgraph-io/dgraph/types/facets"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/protos/api"
+	"github.com/slavaromanov/dgraph/types/facets"
+	"github.com/slavaromanov/dgraph/x"
 
 	"github.com/stretchr/testify/assert"
 )

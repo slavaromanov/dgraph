@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/dgraph-io/dgraph/dgraph/cmd/bulk"
-	"github.com/dgraph-io/dgraph/dgraph/cmd/live"
-	"github.com/dgraph-io/dgraph/dgraph/cmd/server"
-	"github.com/dgraph-io/dgraph/dgraph/cmd/zero"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/dgraph/cmd/bulk"
+	"github.com/slavaromanov/dgraph/dgraph/cmd/live"
+	"github.com/slavaromanov/dgraph/dgraph/cmd/server"
+	"github.com/slavaromanov/dgraph/dgraph/cmd/zero"
+	"github.com/slavaromanov/dgraph/x"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

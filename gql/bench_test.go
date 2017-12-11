@@ -20,7 +20,7 @@ package gql
 import (
 	"testing"
 
-	"github.com/dgraph-io/dgraph/schema"
+	"github.com/slavaromanov/dgraph/schema"
 	"github.com/stretchr/testify/require"
 )
 

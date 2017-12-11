@@ -4,7 +4,7 @@ package gql
 
 // GQL parser fuzzer for use with https://github.com/dvyukov/go-fuzz.
 //
-// Build: go-fuzz-build github.com/dgraph-io/dgraph/gql
+// Build: go-fuzz-build github.com/slavaromanov/dgraph/gql
 //
 // Run: go-fuzz -bin=./gql-fuzz.zip -workdir fuzz-data
 

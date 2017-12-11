@@ -21,7 +21,7 @@ import (
 	"net/http"
 	"regexp"
 
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/x"
 )
 
 func homeHandler(h http.Handler, reg *regexp.Regexp) http.Handler {

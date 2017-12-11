@@ -29,9 +29,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 
-	"github.com/dgraph-io/dgraph/posting"
-	"github.com/dgraph-io/dgraph/protos/intern"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/posting"
+	"github.com/slavaromanov/dgraph/protos/intern"
+	"github.com/slavaromanov/dgraph/x"
 )
 
 func checkShard(ps *badger.ManagedDB) (int, []byte) {

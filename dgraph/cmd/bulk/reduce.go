@@ -21,10 +21,10 @@ import (
 	"bytes"
 	"sync/atomic"
 
-	"github.com/dgraph-io/dgraph/bp128"
-	"github.com/dgraph-io/dgraph/posting"
-	"github.com/dgraph-io/dgraph/protos/intern"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/bp128"
+	"github.com/slavaromanov/dgraph/posting"
+	"github.com/slavaromanov/dgraph/protos/intern"
+	"github.com/slavaromanov/dgraph/x"
 )
 
 type reducer struct {

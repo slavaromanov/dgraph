@@ -27,12 +27,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/dgraph-io/dgraph/edgraph"
-	"github.com/dgraph-io/dgraph/gql"
-	"github.com/dgraph-io/dgraph/protos/api"
-	"github.com/dgraph-io/dgraph/query"
-	"github.com/dgraph-io/dgraph/worker"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/edgraph"
+	"github.com/slavaromanov/dgraph/gql"
+	"github.com/slavaromanov/dgraph/protos/api"
+	"github.com/slavaromanov/dgraph/query"
+	"github.com/slavaromanov/dgraph/worker"
+	"github.com/slavaromanov/dgraph/x"
 )
 
 func allowed(method string) bool {

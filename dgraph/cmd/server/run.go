@@ -36,13 +36,13 @@ import (
 	"golang.org/x/net/trace"
 	"google.golang.org/grpc"
 
-	"github.com/dgraph-io/dgraph/edgraph"
-	"github.com/dgraph-io/dgraph/posting"
-	"github.com/dgraph-io/dgraph/protos/api"
-	"github.com/dgraph-io/dgraph/schema"
-	"github.com/dgraph-io/dgraph/tok"
-	"github.com/dgraph-io/dgraph/worker"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/edgraph"
+	"github.com/slavaromanov/dgraph/posting"
+	"github.com/slavaromanov/dgraph/protos/api"
+	"github.com/slavaromanov/dgraph/schema"
+	"github.com/slavaromanov/dgraph/tok"
+	"github.com/slavaromanov/dgraph/worker"
+	"github.com/slavaromanov/dgraph/x"
 	"github.com/spf13/cobra"
 )
 

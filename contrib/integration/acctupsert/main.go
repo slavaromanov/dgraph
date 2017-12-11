@@ -10,10 +10,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/dgraph-io/dgraph/client"
-	"github.com/dgraph-io/dgraph/protos/api"
-	"github.com/dgraph-io/dgraph/x"
-	"github.com/dgraph-io/dgraph/y"
+	"github.com/slavaromanov/dgraph/client"
+	"github.com/slavaromanov/dgraph/protos/api"
+	"github.com/slavaromanov/dgraph/x"
+	"github.com/slavaromanov/dgraph/y"
 	"google.golang.org/grpc"
 )
 

@@ -22,7 +22,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/dgraph-io/dgraph/dgraph/cmd"
+	"github.com/slavaromanov/dgraph/dgraph/cmd"
 )
 
 func main() {

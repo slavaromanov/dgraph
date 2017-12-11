@@ -19,7 +19,7 @@ package types
 import (
 	"time"
 
-	"github.com/dgraph-io/dgraph/protos/intern"
+	"github.com/slavaromanov/dgraph/protos/intern"
 	geom "github.com/twpayne/go-geom"
 )
 

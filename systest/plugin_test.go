@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dgraph-io/dgraph/protos/api"
+	"github.com/slavaromanov/dgraph/protos/api"
 )
 
 func TestPlugins(t *testing.T) {

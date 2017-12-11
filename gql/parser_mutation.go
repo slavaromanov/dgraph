@@ -18,9 +18,9 @@
 package gql
 
 import (
-	"github.com/dgraph-io/dgraph/lex"
-	"github.com/dgraph-io/dgraph/protos/api"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/lex"
+	"github.com/slavaromanov/dgraph/protos/api"
+	"github.com/slavaromanov/dgraph/x"
 )
 
 func ParseMutation(mutation string) (*api.Mutation, error) {

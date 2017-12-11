@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dgraph-io/dgraph/client"
-	"github.com/dgraph-io/dgraph/protos/api"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/client"
+	"github.com/slavaromanov/dgraph/protos/api"
+	"github.com/slavaromanov/dgraph/x"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 )
@@ -28,7 +28,7 @@ var s state
 
 func TestMain(m *testing.M) {
 	log.SetFlags(log.LstdFlags | log.Lshortfile)
-	cmd := exec.Command("go", "install", "github.com/dgraph-io/dgraph/dgraph")
+	cmd := exec.Command("go", "install", "github.com/slavaromanov/dgraph/dgraph")
 	cmd.Env = os.Environ()
 	if out, err := cmd.CombinedOutput(); err != nil {
 		log.Fatalf("Could not run %q: %s", cmd.Args, string(out))

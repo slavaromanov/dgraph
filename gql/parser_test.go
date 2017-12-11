@@ -22,8 +22,8 @@ import (
 	"runtime/debug"
 	"testing"
 
-	"github.com/dgraph-io/dgraph/protos/api"
-	"github.com/dgraph-io/dgraph/rdf"
+	"github.com/slavaromanov/dgraph/protos/api"
+	"github.com/slavaromanov/dgraph/rdf"
 	"github.com/stretchr/testify/require"
 )
 

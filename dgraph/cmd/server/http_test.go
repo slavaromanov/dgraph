@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/dgraph-io/dgraph/query"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/query"
+	"github.com/slavaromanov/dgraph/x"
 	"github.com/stretchr/testify/require"
 )
 

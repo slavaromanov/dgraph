@@ -25,7 +25,7 @@ import (
 	"github.com/coreos/etcd/raft/raftpb"
 	"github.com/dgraph-io/badger"
 
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/x"
 )
 
 type Wal struct {

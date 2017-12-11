@@ -29,7 +29,7 @@ import (
 	"runtime"
 	"strconv"
 
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/x"
 	"github.com/spf13/cobra"
 )
 

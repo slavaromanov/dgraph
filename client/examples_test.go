@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dgraph-io/dgraph/client"
-	"github.com/dgraph-io/dgraph/protos/api"
+	"github.com/slavaromanov/dgraph/client"
+	"github.com/slavaromanov/dgraph/protos/api"
 	"google.golang.org/grpc"
 )
 

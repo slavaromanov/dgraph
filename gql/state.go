@@ -18,7 +18,7 @@
 // Package gql is responsible for lexing and parsing a GraphQL query/mutation.
 package gql
 
-import "github.com/dgraph-io/dgraph/lex"
+import "github.com/slavaromanov/dgraph/lex"
 
 const (
 	leftCurl    = '{'

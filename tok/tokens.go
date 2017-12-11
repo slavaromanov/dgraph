@@ -18,7 +18,7 @@
 package tok
 
 import (
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/x"
 )
 
 //  Might want to allow user to replace this.

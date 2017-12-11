@@ -20,7 +20,7 @@ package task
 import (
 	"encoding/binary"
 
-	"github.com/dgraph-io/dgraph/protos/intern"
+	"github.com/slavaromanov/dgraph/protos/intern"
 )
 
 var (

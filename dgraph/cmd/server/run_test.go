@@ -37,16 +37,16 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dgraph-io/dgraph/edgraph"
-	"github.com/dgraph-io/dgraph/gql"
-	"github.com/dgraph-io/dgraph/posting"
-	"github.com/dgraph-io/dgraph/protos/api"
-	"github.com/dgraph-io/dgraph/protos/intern"
-	"github.com/dgraph-io/dgraph/query"
-	"github.com/dgraph-io/dgraph/schema"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/worker"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/edgraph"
+	"github.com/slavaromanov/dgraph/gql"
+	"github.com/slavaromanov/dgraph/posting"
+	"github.com/slavaromanov/dgraph/protos/api"
+	"github.com/slavaromanov/dgraph/protos/intern"
+	"github.com/slavaromanov/dgraph/query"
+	"github.com/slavaromanov/dgraph/schema"
+	"github.com/slavaromanov/dgraph/types"
+	"github.com/slavaromanov/dgraph/worker"
+	"github.com/slavaromanov/dgraph/x"
 )
 
 var q0 = `
@@ -82,7 +82,7 @@ func (c *raftServer) JoinCluster(ctx context.Context, in *intern.RaftContext) (*
 }
 
 func prepare() (dir1, dir2 string, rerr error) {
-	cmd := exec.Command("go", "install", "github.com/dgraph-io/dgraph/dgraph")
+	cmd := exec.Command("go", "install", "github.com/slavaromanov/dgraph/dgraph")
 	cmd.Env = os.Environ()
 	if out, err := cmd.CombinedOutput(); err != nil {
 		log.Fatalf("Could not run %q: %s", cmd.Args, string(out))

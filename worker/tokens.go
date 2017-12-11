@@ -22,10 +22,10 @@ import (
 
 	"github.com/dgraph-io/badger"
 
-	"github.com/dgraph-io/dgraph/schema"
-	"github.com/dgraph-io/dgraph/tok"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/schema"
+	"github.com/slavaromanov/dgraph/tok"
+	"github.com/slavaromanov/dgraph/types"
+	"github.com/slavaromanov/dgraph/x"
 )
 
 func verifyStringIndex(attr string, funcType FuncType) (string, bool) {

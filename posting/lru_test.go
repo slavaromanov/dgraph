@@ -21,7 +21,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/dgraph-io/dgraph/protos/intern"
+	"github.com/slavaromanov/dgraph/protos/intern"
 	"github.com/stretchr/testify/require"
 )
 

@@ -20,8 +20,8 @@ package posting
 import (
 	"context"
 
-	"github.com/dgraph-io/dgraph/protos/intern"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/slavaromanov/dgraph/protos/intern"
+	"github.com/slavaromanov/dgraph/x"
 )
 
 var o *oracle
